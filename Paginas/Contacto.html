@@ -1,0 +1,57 @@
+<html>
+    <head>
+
+    </head>
+    <body style="background-color: #679b9b;">
+        <header>
+            <ul style=" background-color: #8fcfd1; display: flex; justify-content: space-around; list-style: none; padding: 15px;">
+                <li><a href="/index.html">Home <img src="../assets/imagenes/casa.svg" width="25px"/></a></li>
+                <li><a href="/Paginas/Autor.html">Autor <img src="../assets/imagenes/poeta.svg" width="25px"/></a></li>
+                <li><a href="/Paginas/Contacto.html">Contacto <img src="../assets/imagenes/mensaje.svg" width="25px"/></a></li>
+            </ul>
+        </header>
+        <div style=" display: flex; flex-direction: column; text-align: center;">
+        <h1>Fomulario de Contacto:</h1>
+        <form action="">
+           <label>
+               Nombre:
+               <input value="Nombre" name="nonbre" type="text" />
+           </label>
+           <br/>
+           <br/>
+           <label>
+               Apellido Paterno:
+               <input value="Apellido P" name="Apellido_p" type="text" />
+           </label>
+           <br/>
+           <br/>
+           <label>
+               Apellido Materno:
+               <input value="Apellido M" name="Apellido_m" type="text" />
+           </label>
+           <br/>
+           <br/>
+           <label for="e-mail">Correo: </label>
+           <input id="e-mail" type="text" name="correo" value="correo@correo.com"/>
+           <br/>
+           <br/>
+           <label for="mensaje">Mensaje: </label>
+           <input id="mensaje" type="text" name="mensaje" value="Escribe tu mensajepor el cual contactas" maxlength="300">
+           <br/>
+           <br/>
+           <label>
+               Contraseña:
+               <input type="password" id="password" name="password" maxlength="8"/>
+           </label>
+           <br/>
+           <br/>
+           <label>
+            <span>Sí</span><input name="enviar_memes" type="radio" value="true" />
+           </label>
+           <label>
+            <span>No</span><input name="enviar_memes" type="radio" value="false" />
+           </label>
+        </form>
+    </div>
+    </body>
+</html>
